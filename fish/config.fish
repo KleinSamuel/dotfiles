@@ -1,10 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-
-set -x PATH $PATH /home/users/klein/bin/
-set -x PATH $PATH /mnt/proj/software/bedops/bin/
-
 # =============================================================================
 #
 # Utility functions for zoxide.
