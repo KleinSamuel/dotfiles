@@ -25,6 +25,7 @@ type Bioinformatician struct {
 }
 
 func (b Bioinformatician) sayHi() string {
-	return fmt.Sprintf("Thanks for dropping by, hope you find some of my work interesting!\n\ngreetings\n%s", b.name)
+	return fmt.Sprintf("Thanks for dropping by, hope you find some of my work interesting!" +
+		"\n\ngreetings\n%s", b.name)
 }
 ```
